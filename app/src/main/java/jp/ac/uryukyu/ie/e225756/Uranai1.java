@@ -1,7 +1,9 @@
 package jp.ac.uryukyu.ie.e225756;
 
 import java.util.Random;
-
+/*
+ * おみくじランダム生成
+ */
 public class Uranai1 {
     public static void omikuji(){
         System.out.println("ようこそ！それでは、引いてください！");

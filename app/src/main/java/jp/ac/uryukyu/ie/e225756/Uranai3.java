@@ -1,6 +1,9 @@
 package jp.ac.uryukyu.ie.e225756;
 
 public class Uranai3 {
+ /*
+  * 生年月日を入力
+  */
     public static void seinengapi(){
         System.out.println("ここは生年月日を使って占うことができます。あなたの生年月日を8桁で入力してください");
         int input = new java.util.Scanner(System.in).nextInt();
@@ -52,7 +55,9 @@ public class Uranai3 {
         }
 
         }
-
+/*
+ * 入力された生年月日をリスト化し、一桁になるまで足し算を繰り返す
+ */
        public static int calc(int a, int b, int c, int d, int e, int f, int g, int i) {
          int result1 = a + b + c + d + e + f + g + i;
          if (result1 < 10){  //初回の結果が１桁の場合はここで終了

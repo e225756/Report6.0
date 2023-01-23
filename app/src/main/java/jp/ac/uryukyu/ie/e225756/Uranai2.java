@@ -1,7 +1,9 @@
 package jp.ac.uryukyu.ie.e225756;
 
 public class Uranai2 {
-    
+/*
+ * 生年月日を入力
+ */
     public static void Kenki(){
         System.out.println("…");
         System.out.println("ようこそ！ここは、あなたの属性を占うことができます");
@@ -52,7 +54,9 @@ public class Uranai2 {
           }
         }
 
-
+/*
+ * 入力された生年月日をリスト化し、一桁になるまで足し算を繰り返す
+ */
     public static int calc(int a, int b, int c, int d, int e, int f, int g, int i) {
         int result1 = a + b + c + d + e + f + g + i;
         if (result1 < 10){  //初回の結果が１桁の場合はここで終了
