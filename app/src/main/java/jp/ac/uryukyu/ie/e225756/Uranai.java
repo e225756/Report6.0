@@ -4,7 +4,7 @@ public class Uranai{
 /*
  * 占いを始める、名前入力、占い選択
  */
-    public static void main(String[]args){
+    public static void home(){
         System.out.println("占いの館へようこそ");
         System.out.println("あなたのお名前を入力してください");
         String name = new java.util.Scanner(System.in).nextLine();
@@ -33,7 +33,7 @@ public class Uranai{
 
     public static void start(){
         System.out.println("開始します");
-        Uranai.main(null);
+        Uranai.home();
     }
 
 }

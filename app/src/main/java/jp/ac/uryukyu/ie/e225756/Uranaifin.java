@@ -12,7 +12,7 @@ public class Uranaifin {
             System.out.println("ホームに戻ります");
             System.out.println("…");
             System.out.println("…");
-            Uranai.main(null);
+            Uranai.home();
         }else if (input == 2){
             System.out.println("終了します");
         }else if(input != 1 && input != 2){
